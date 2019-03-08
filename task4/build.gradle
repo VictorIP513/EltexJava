@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'EltexJavaLessons'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.15'
+}
